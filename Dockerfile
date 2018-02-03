@@ -21,8 +21,6 @@ ENV OPENVPN=/etc/openvpn \
     EASYRSA_PKI=/etc/openvpn/pki \
     EASYRSA_VARS_FILE=/etc/openvpn/vars
 
-VOLUME ["/etc/openvpn"]
-
 EXPOSE 1194/udp
 
 WORKDIR /etc/openvpn
